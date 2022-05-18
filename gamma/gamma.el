@@ -5,6 +5,9 @@
 (require 'gamma-borg)
 (require 'gamma-defaults)
 
+(require 'gamma-ui)
+(require 'gamma-ux)
+
 (provide 'gamma)
 
 ;;; gamma.el ends here
