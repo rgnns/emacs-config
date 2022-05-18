@@ -1,1 +1,11 @@
-/epkgs/
+.#*
+*.elc
+/.cask
+/.hive-maint
+/eln-cache
+/elpa
+/epkgs
+/transient
+/var
+/custom.el
+/history

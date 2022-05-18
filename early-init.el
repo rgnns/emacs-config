@@ -3,6 +3,13 @@
 (setq load-prefer-newer t
       package-enable-at-startup nil)
 
+;(let ((dir (file-name-directory (or load-file-name buffer-file-name))))
+;  (add-to-list 'load-path (expand-file-name "lib/packed" dir))
+;  (add-to-list 'load-path (expand-file-name "lib/auto-compile" dir)))
+;(require 'auto-compile)
+;(auto-compile-on-load-mode)
+;(auto-compile-on-save-mode)
+
 (with-eval-after-load 'package
   (add-to-list 'package-archives
                (cons "melpa" "https://melpa.org/packages/")

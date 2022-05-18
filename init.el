@@ -10,12 +10,8 @@
 (setq user-full-name "Gabriel Lievano"
       user-mail-address "emacs-gamma@gabriellievano.com")
 
-;; Initialize Borg instead of Package
-(when (< emacs-major-version 27)
-  (setq package-enable-at-startup nil))
-(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
-(require 'borg)
-(borg-initialize)
+(add-to-list 'load-path (expand-file-name "gamma" user-emacs-directory))
+(require 'gamma)
 
 ;; Local Variables:
 ;; indent-tabs-mode: nil
