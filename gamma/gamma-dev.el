@@ -79,6 +79,11 @@
   (define-key lsp-ui-mode-map [remap xref-find-definitions] #'lsp-ui-peek-find-definitions)
   (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references))
 
+(use-package markdown-mode
+  :mode (("\\`README\\.md\\'" . gfm-mode)
+         ("\\.mdx?\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode)))
+
 (use-package prog-mode
   :preface
   (defun indicate-buffer-boundaries-left ()

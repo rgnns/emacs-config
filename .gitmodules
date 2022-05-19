@@ -88,6 +88,9 @@
 [submodule "git-undo"]
 	path = lib/git-undo
 	url = git@github.com:jwiegley/git-undo-el.git
+[submodule "google-c-style"]
+	path = lib/google-c-style
+	url = git@github.com:emacsmirror/google-c-style.git
 [submodule "haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
