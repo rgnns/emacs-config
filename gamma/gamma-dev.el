@@ -49,11 +49,7 @@
   :commands lsp-ivy-workspace-symbol)
 
 (use-package lsp-mode
-  :hook ((elixir-mode . lsp)
-         (haskell-mode . lsp)
-         (haskell-literate-mode . lsp)
-         (rust-mode . lsp)
-         (lsp-mode . lsp-enable-which-key-integration))
+  :hook ((lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp)
   :custom
   (lsp-keymap-prefix "C-c l")

@@ -7,6 +7,8 @@
   :mode (("\\.hs\\(c\\|-bot\\)?\\'" . haskell-mode)
          ("\\.lhs\\'" . literate-haskell-mode)
          ("\\.cabal\\'" . haskell-cabal-mode))
+  :hook ((haskell-mode . (lambda () (lsp)))
+         (haskell-literate-mode . (lambda () (lsp))))
   :preface
   (defvar haskell-prettify-symbols-alist
     '(("::"     . ?∷)

@@ -1,0 +1,11 @@
+#+TITLE: README
+
+* Setup
+
+- Copy ~gamma-init.example.el~ to ~gamma-init.el~.
+- Run ~make bootstrap-borg~.
+- Run ~make bootstrap~.
+
+* Roadmap
+
+- [ ] Fix ~dap-mode~ (missing ~treemacs~ even though it is there).
