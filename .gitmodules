@@ -46,6 +46,9 @@
 [submodule "doom-themes"]
 	path = lib/doom-themes
 	url = git@github.com:doomemacs/themes.git
+[submodule "elixir-mode"]
+	path = lib/elixir-mode
+	url = git@github.com:elixir-editors/emacs-elixir.git
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
@@ -67,6 +70,9 @@
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:flycheck/flycheck.git
+[submodule "flycheck-haskell"]
+	path = lib/flycheck-haskell
+	url = git@github.com:flycheck/flycheck-haskell.git
 [submodule "flymake-shellcheck"]
 	path = lib/flymake-shellcheck
 	url = git@github.com:federicotdn/flymake-shellcheck.git
@@ -79,6 +85,9 @@
 [submodule "git-undo"]
 	path = lib/git-undo
 	url = git@github.com:jwiegley/git-undo-el.git
+[submodule "haskell-mode"]
+	path = lib/haskell-mode
+	url = git@github.com:haskell/haskell-mode.git
 [submodule "hl-todo"]
 	path = lib/hl-todo
 	url = git@github.com:tarsius/hl-todo.git
@@ -94,6 +103,12 @@
 [submodule "ivy-rich"]
 	path = lib/ivy-rich
 	url = git@github.com:Yevgnen/ivy-rich.git
+[submodule "json-mode"]
+	path = lib/json-mode
+	url = git@github.com:joshwnj/json-mode.git
+[submodule "json-snatcher"]
+	path = lib/json-snatcher
+	url = git@github.com:Sterlingg/json-snatcher.git
 [submodule "lsp-ivy"]
 	path = lib/lsp-ivy
 	url = git@github.com:emacs-lsp/lsp-ivy.git
@@ -121,6 +136,9 @@
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
+[submodule "python-mode"]
+	path = lib/python-mode
+	url = git@gitlab.com:python-mode-devs/python-mode.git
 [submodule "queue"]
 	path = lib/queue
 	url = git@github.com:emacsmirror/queue.git
@@ -130,9 +148,18 @@
 [submodule "reformatter"]
 	path = lib/reformatter
 	url = git@github.com:purcell/emacs-reformatter.git
+[submodule "rust-mode"]
+	path = lib/rust-mode
+	url = git@github.com:rust-lang/rust-mode.git
+[submodule "rustic"]
+	path = lib/rustic
+	url = git@github.com:brotzeit/rustic.git
 [submodule "s"]
 	path = lib/s
 	url = git@github.com:magnars/s.el.git
+[submodule "scss-mode"]
+	path = lib/scss-mode
+	url = git@github.com:antonj/scss-mode.git
 [submodule "shfmt"]
 	path = lib/shfmt
 	url = git@github.com:purcell/emacs-shfmt.git
@@ -142,18 +169,30 @@
 [submodule "swift-mode"]
 	path = lib/swift-mode
 	url = git@github.com:swift-emacs/swift-mode.git
+[submodule "toml-mode"]
+	path = lib/toml-mode
+	url = git@github.com:dryman/toml-mode.el.git
 [submodule "undo-tree"]
 	path = lib/undo-tree
 	url = git@gitlab.com:tsc25/undo-tree.git
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
+[submodule "web-mode"]
+	path = lib/web-mode
+	url = git@github.com:fxbois/web-mode.git
 [submodule "which-key"]
 	path = lib/which-key
 	url = git@github.com:justbur/emacs-which-key.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+[submodule "xterm-color"]
+	path = lib/xterm-color
+	url = git@github.com:atomontage/xterm-color.git
+[submodule "yaml-mode"]
+	path = lib/yaml-mode
+	url = git@github.com:yoshiki/yaml-mode.git
 [submodule "yasnippet"]
 	path = lib/yasnippet
 	url = git@github.com:joaotavora/yasnippet.git

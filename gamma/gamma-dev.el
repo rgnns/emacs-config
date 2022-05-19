@@ -86,6 +86,12 @@
 (use-package restclient
   :mode (("\\.rest\\'" . restclient-mode)))
 
+(use-package toml-mode
+  :mode "\\.toml\\'")
+
+(use-package yaml-mode
+  :mode "\\.ya?ml\\'")
+
 (use-package yasnippet
   :mode (("\\.yasnippet\\'" . snippet-mode))
   :bind (:map yas-minor-mode-map

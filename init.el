@@ -15,8 +15,14 @@
 
 (gamma/load!
  bazel
+ elixir
+ haskell
+ python
  shell
- swift)
+ ruby
+ rust
+ swift
+ web)
 
 ;; Local Variables:
 ;; indent-tabs-mode: nil
