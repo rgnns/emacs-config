@@ -43,6 +43,9 @@
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
+[submodule "diff-hl"]
+	path = lib/diff-hl
+	url = git@github.com:dgutov/diff-hl.git
 [submodule "doom-themes"]
 	path = lib/doom-themes
 	url = git@github.com:doomemacs/themes.git
@@ -130,12 +133,21 @@
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "paredit"]
+	path = lib/paredit
+	url = https://mumble.net/~campbell/git/paredit.git
+[submodule "paredit-everywhere"]
+	path = lib/paredit-everywhere
+	url = git@github.com:purcell/paredit-everywhere.git
 [submodule "posframe"]
 	path = lib/posframe
 	url = git@github.com:tumashu/posframe.git
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
+[submodule "protobuf-mode"]
+	path = lib/protobuf-mode
+	url = git@github.com:emacsmirror/protobuf-mode.git
 [submodule "python-mode"]
 	path = lib/python-mode
 	url = git@gitlab.com:python-mode-devs/python-mode.git

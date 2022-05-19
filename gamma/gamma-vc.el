@@ -1,5 +1,12 @@
 ;;; gamma-vc.el --- Gamma Version Control
 
+(use-package diff-hl
+  :custom
+  (diff-hl-draw-borders nil)
+  :config
+  (global-diff-hl-mode)
+  (add-hook 'magit-post-refresh-hook 'diff-hl-magit-post-refresh t))
+
 (use-package gitconfig-mode
   :mode ("/\\.gitconfig\\'"
          "/\\.git/config\\'"

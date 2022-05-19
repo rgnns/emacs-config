@@ -79,6 +79,14 @@
   (define-key lsp-ui-mode-map [remap xref-find-definitions] #'lsp-ui-peek-find-definitions)
   (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references))
 
+(use-package prog-mode
+  :preface
+  (defun indicate-buffer-boundaries-left ()
+    (setq indicate-buffer-boundaries 'left))
+  :config
+  (global-prettify-symbols-mode t)
+  (add-hook 'prog-mode-hook 'indicate-buffer-boundaries-left))
+
 (use-package rainbow-delimiters
   :config
   (add-hook 'prog-mode-hook (lambda () (rainbow-delimiters-mode))))

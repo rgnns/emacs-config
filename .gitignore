@@ -1,5 +1,6 @@
 .#*
 *.elc
+/gamma-init.el
 /.cask
 /.hive-maint
 /eln-cache

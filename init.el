@@ -13,15 +13,19 @@
 (add-to-list 'load-path (expand-file-name "gamma" user-emacs-directory))
 (require 'gamma)
 
-(gamma/load!
+(load (expand-file-name "gamma-init.el" user-emacs-directory))
+
+(gamma/load-modules!
+ apple
  bazel
  elixir
  haskell
+ idl
+ lisp
  python
  shell
  ruby
  rust
- swift
  web)
 
 ;; Local Variables:
