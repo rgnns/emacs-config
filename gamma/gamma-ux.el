@@ -26,6 +26,20 @@
   :config
   (counsel-mode 1))
 
+(use-package counsel-projectile
+  :after (counsel projectile)
+  :functions counsel-projectile-modify-action
+  :config
+  (counsel-projectile-modify-action
+   'counsel-projectile-switch-project-action
+   '((move counsel-projectile-switch-project-action-dired 1)))
+  (counsel-projectile-mode))
+
+(use-package flx
+  :after ivy
+  :defer t
+  :custom (ivy-flx-limit 10000))
+
 (use-package ivy
   :diminish
   :bind (("C-c C-r" . ivy-resume)
@@ -74,6 +88,13 @@
 (use-package swiper
   :diminish ivy-mode
   :bind (("C-s" . swiper)))
+
+(use-package undo-tree
+  :init
+  (global-undo-tree-mode)
+  :custom
+  (undo-tree-visualizer-diff t)
+  (undo-tree-visualizer-timestamps t))
 
 (use-package which-key
   :custom

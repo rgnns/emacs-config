@@ -13,18 +13,33 @@
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+[submodule "auto-yasnippet"]
+	path = lib/auto-yasnippet
+	url = git@github.com:abo-abo/auto-yasnippet.git
 [submodule "avy"]
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
+[submodule "bazel"]
+	path = lib/bazel
+	url = git@github.com:bazelbuild/emacs-bazel-mode.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+[submodule "company"]
+	path = lib/company
+	url = git@github.com:company-mode/company-mode.git
 [submodule "compat"]
 	path = lib/compat
 	url = git@github.com:emacs-straight/compat.git
+[submodule "counsel-projectile"]
+	path = lib/counsel-projectile
+	url = git@github.com:ericdanan/counsel-projectile.git
+[submodule "dap-mode"]
+	path = lib/dap-mode
+	url = git@github.com:emacs-lsp/dap-mode.git
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
@@ -40,6 +55,33 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "f"]
+	path = lib/f
+	url = git@github.com:rejeep/f.el.git
+[submodule "fish-mode"]
+	path = lib/fish-mode
+	url = git@github.com:wwwjfy/emacs-fish.git
+[submodule "flx"]
+	path = lib/flx
+	url = git@github.com:lewang/flx.git
+[submodule "flycheck"]
+	path = lib/flycheck
+	url = git@github.com:flycheck/flycheck.git
+[submodule "flymake-shellcheck"]
+	path = lib/flymake-shellcheck
+	url = git@github.com:federicotdn/flymake-shellcheck.git
+[submodule "git-modes"]
+	path = lib/git-modes
+	url = git@github.com:magit/git-modes.git
+[submodule "git-timemachine"]
+	path = lib/git-timemachine
+	url = git@gitlab.com:pidu/git-timemachine.git
+[submodule "git-undo"]
+	path = lib/git-undo
+	url = git@github.com:jwiegley/git-undo-el.git
+[submodule "hl-todo"]
+	path = lib/hl-todo
+	url = git@github.com:tarsius/hl-todo.git
 [submodule "ht"]
 	path = lib/ht
 	url = git@github.com:Wilfred/ht.el.git
@@ -52,18 +94,66 @@
 [submodule "ivy-rich"]
 	path = lib/ivy-rich
 	url = git@github.com:Yevgnen/ivy-rich.git
+[submodule "lsp-ivy"]
+	path = lib/lsp-ivy
+	url = git@github.com:emacs-lsp/lsp-ivy.git
+[submodule "lsp-mode"]
+	path = lib/lsp-mode
+	url = git@github.com:emacs-lsp/lsp-mode.git
+[submodule "lsp-ui"]
+	path = lib/lsp-ui
+	url = git@github.com:emacs-lsp/lsp-ui.git
+[submodule "magit"]
+	path = lib/magit
+	url = git@github.com:magit/magit.git
+[submodule "markdown-mode"]
+	path = lib/markdown-mode
+	url = git@github.com:jrblevin/markdown-mode.git
 [submodule "no-littering"]
 	path = lib/no-littering
 	url = git@github.com:emacscollective/no-littering.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "posframe"]
+	path = lib/posframe
+	url = git@github.com:tumashu/posframe.git
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
+[submodule "queue"]
+	path = lib/queue
+	url = git@github.com:emacsmirror/queue.git
+[submodule "rainbow-delimiters"]
+	path = lib/rainbow-delimiters
+	url = git@github.com:Fanael/rainbow-delimiters.git
+[submodule "reformatter"]
+	path = lib/reformatter
+	url = git@github.com:purcell/emacs-reformatter.git
+[submodule "s"]
+	path = lib/s
+	url = git@github.com:magnars/s.el.git
+[submodule "shfmt"]
+	path = lib/shfmt
+	url = git@github.com:purcell/emacs-shfmt.git
+[submodule "spinner"]
+	path = lib/spinner
+	url = git@github.com:Malabarba/spinner.el.git
+[submodule "swift-mode"]
+	path = lib/swift-mode
+	url = git@github.com:swift-emacs/swift-mode.git
+[submodule "undo-tree"]
+	path = lib/undo-tree
+	url = git@gitlab.com:tsc25/undo-tree.git
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
 [submodule "which-key"]
 	path = lib/which-key
 	url = git@github.com:justbur/emacs-which-key.git
+[submodule "with-editor"]
+	path = lib/with-editor
+	url = git@github.com:magit/with-editor.git
+[submodule "yasnippet"]
+	path = lib/yasnippet
+	url = git@github.com:joaotavora/yasnippet.git

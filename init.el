@@ -13,6 +13,11 @@
 (add-to-list 'load-path (expand-file-name "gamma" user-emacs-directory))
 (require 'gamma)
 
+(gamma/load!
+ bazel
+ shell
+ swift)
+
 ;; Local Variables:
 ;; indent-tabs-mode: nil
 ;; End:
