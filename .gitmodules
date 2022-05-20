@@ -148,6 +148,9 @@
 [submodule "paredit-everywhere"]
 	path = lib/paredit-everywhere
 	url = git@github.com:purcell/paredit-everywhere.git
+[submodule "pfuture"]
+	path = lib/pfuture
+	url = git@github.com:Alexander-Miller/pfuture.git
 [submodule "posframe"]
 	path = lib/posframe
 	url = git@github.com:tumashu/posframe.git
@@ -196,6 +199,12 @@
 [submodule "treemacs"]
 	path = lib/treemacs
 	url = git@github.com:Alexander-Miller/treemacs.git
+	load-path = src/elisp
+	load-path = src/extra
+	no-byte-compile = src/extra/treemacs-all-the-icons.el
+	no-byte-compile = src/extra/treemacs-evil.el
+	no-byte-compile = src/extra/treemacs-persp.el
+	no-byte-compile = src/extra/treemacs-perspective.el
 [submodule "undo-tree"]
 	path = lib/undo-tree
 	url = git@gitlab.com:tsc25/undo-tree.git
