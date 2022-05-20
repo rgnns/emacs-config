@@ -8,4 +8,5 @@
 
 * Roadmap
 
+- [ ] Integrate [[https://github.com/apple/sourcekit-lsp][~sourcekit-lsp~]].
 - [X] Fix ~dap-mode~ (missing ~treemacs~ even though it is there).
