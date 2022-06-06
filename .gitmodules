@@ -43,6 +43,9 @@
 [submodule "counsel-projectile"]
 	path = lib/counsel-projectile
 	url = git@github.com:ericdanan/counsel-projectile.git
+[submodule "csv-mode"]
+	path = lib/csv-mode
+	url = git@github.com:emacsmirror/csv-mode.git
 [submodule "dap-mode"]
 	path = lib/dap-mode
 	url = git@github.com:emacs-lsp/dap-mode.git

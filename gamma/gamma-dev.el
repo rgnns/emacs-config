@@ -33,6 +33,9 @@
   :config
   (push 'company-lsp company-backends))
 
+(use-package csv-mode
+  :mode (("\\.csv\\'" . csv-mode)))
+
 (use-package dap-mode
   :after lsp-mode
   :config
