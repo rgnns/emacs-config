@@ -34,6 +34,9 @@
 [submodule "company"]
 	path = lib/company
 	url = git@github.com:company-mode/company-mode.git
+[submodule "company-lsp"]
+	path = lib/company-lsp
+	url = git@github.com:emacsattic/company-lsp.git
 [submodule "compat"]
 	path = lib/compat
 	url = git@github.com:emacs-straight/compat.git

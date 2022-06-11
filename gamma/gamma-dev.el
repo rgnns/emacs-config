@@ -23,6 +23,16 @@
   :config
   (global-company-mode))
 
+(use-package company-lsp
+  :after (company lsp)
+  :custom
+  (company-lsp-cache-candidates t)
+  (company-lsp-async t)
+  (company-lsp-enable-recompletion t)
+  (company-lsp-enable-snippet)
+  :config
+  (push 'company-lsp company-backends))
+
 (use-package dap-mode
   :after lsp-mode
   :config
@@ -52,7 +62,16 @@
   :hook ((lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp)
   :custom
+  (lsp-auto-guess-root t)
+  (lsp-document-sync-method 'incremental)
+  (lsp-response-timeout 10)
   (lsp-keymap-prefix "C-c l")
+  (lsp-prefer-flymake nil)
+  
+  (lsp-print-io t)
+  (lsp-trace t)
+  (lsp-print-performance t)
+  
   (lsp-rust-analyzer-cargo-watch-command "clippy")
   (lsp-rust-analyzer-server-display-inlay-hints t))
 
@@ -62,11 +81,27 @@
   :custom
   (lsp-ui-doc-enable t)
   (lsp-ui-doc-delay 0.2)
+  (lsp-ui-doc-header t)
   (lsp-ui-doc-include-signature t)
+  (lsp-ui-doc-max-height 30)
+  (lsp-ui-doc-max-width 120)
+  (lsp-ui-doc-position 'at-point)
+  (lsp-ui-doc-use-childframe t)
+  (lsp-ui-doc-use-webkit nil)
+  (lsp-ui-flycheck-enable t)
+  (lsp-ui-imenu-enable t)
+  (lsp-ui-imenu-kind-position 'top)
   (lsp-ui-peek-enable t)
-  (lsp-ui-sideline-enable t)
+  (lsp-ui-peek-fontify 'on-demand)
+  (lsp-ui-peek-list-width 50)
+  (lsp-ui-peek-peek-height 20)
+  (lsp-ui-sideline-code-actions-prefix "" t)
+  (lsp-ui-sideline-enable t)  
   (lsp-ui-sideline-ignore-duplicate t)
+  (lsp-ui-sideline-show-code-actions t)
   (lsp-ui-sideline-show-diagnostics t)
+  (lsp-ui-sideline-show-hover t)
+  (lsp-ui-sideline-show-symbol t)
   (lsp-ui-sideline-update-mode 'point)
   (lsp-ui-sideline-delay 0.5)
   ;; FIXME: https://github.com/emacs-lsp/lsp-ui/issues/661

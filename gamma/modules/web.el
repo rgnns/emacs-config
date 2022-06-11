@@ -2,6 +2,10 @@
 
 (use-package css-mode :custom (css-indent-offset 2))
 
+(use-package js-mode
+  :no-require t
+  :hook (js-mode . (lambda () (lsp))))
+
 (use-package json-mode
   :mode "\\.json\\'"
   :preface
