@@ -43,6 +43,9 @@
   (dap-ui-controls-mode)
   (dap-ui-mode t))
 
+(use-package dockerfile-mode
+  :mode (("Dockerfile\\'" . dockerfile-mode)))
+
 (use-package flycheck)
 
 (use-package hl-todo
