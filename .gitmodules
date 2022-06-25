@@ -212,6 +212,9 @@
 [submodule "toml-mode"]
 	path = lib/toml-mode
 	url = git@github.com:dryman/toml-mode.el.git
+[submodule "transient"]
+	path = lib/transient
+	url = git@github.com:magit/transient.git
 [submodule "treemacs"]
 	path = lib/treemacs
 	url = git@github.com:Alexander-Miller/treemacs.git
