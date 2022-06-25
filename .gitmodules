@@ -127,6 +127,9 @@
 [submodule "json-snatcher"]
 	path = lib/json-snatcher
 	url = git@github.com:Sterlingg/json-snatcher.git
+[submodule "ledger-mode"]
+	path = lib/ledger-mode
+	url = git@github.com:ledger/ledger-mode.git
 [submodule "lsp-ivy"]
 	path = lib/lsp-ivy
 	url = git@github.com:emacs-lsp/lsp-ivy.git
