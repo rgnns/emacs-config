@@ -1,12 +1,13 @@
 (gamma/load-modules!
  apple
  bazel
+ cc
  elixir
  haskell
  idl
  lisp
  python
- shell
  ruby
  rust
+ shell 
  web)
