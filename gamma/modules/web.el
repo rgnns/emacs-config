@@ -18,6 +18,7 @@
   :mode "\\.s[ac]ss\\'")
 
 (use-package web-mode
+  :disabled
   :mode (("\\.phtml\\'" . web-mode)
          ("\\.tpl\\.php\\'" . web-mode)
          ("\\.[agj]sp\\'" . web-mode)
