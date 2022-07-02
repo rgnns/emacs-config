@@ -49,6 +49,7 @@
 (setq-default
  indent-tabs-mode nil
  tab-width 2
+ show-trailing-whitespace t
  display-line-numbers-width 3
  display-line-numbers/widen t)
 

@@ -10,7 +10,7 @@
 (if (boundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 (set-face-attribute 'default nil
-                    :family "Iosevka Term SS15"
+                    :family "Jetbrains Mono"
                     :weight 'normal
                     :height 130)
 
