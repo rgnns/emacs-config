@@ -46,6 +46,19 @@
 (use-package dockerfile-mode
   :mode (("Dockerfile\\'" . dockerfile-mode)))
 
+(use-package eshell
+  :no-require t
+  :config
+  (add-hook 'eshell-mode-hook
+            (lambda ()
+              (local-set-key (kbd "C-c h")
+                             (lambda ()
+                               (interactive)
+                               (insert (ido-completing-read "Eshell history: "
+                                                            (delete-dups
+                                                             (ring-elements eshell-history-ring))))))
+              (local-set-key (kbd "C-c C-h") 'eshell-list-history))))
+
 (use-package flycheck)
 
 (use-package hl-todo
@@ -73,11 +86,11 @@
   (lsp-response-timeout 10)
   (lsp-keymap-prefix "C-c l")
   (lsp-prefer-flymake nil)
-  
+
   (lsp-print-io t)
   (lsp-trace t)
   (lsp-print-performance t)
-  
+
   (lsp-rust-analyzer-cargo-watch-command "clippy")
   (lsp-rust-analyzer-server-display-inlay-hints t))
 
@@ -102,7 +115,7 @@
   (lsp-ui-peek-list-width 50)
   (lsp-ui-peek-peek-height 20)
   (lsp-ui-sideline-code-actions-prefix "" t)
-  (lsp-ui-sideline-enable t)  
+  (lsp-ui-sideline-enable t)
   (lsp-ui-sideline-ignore-duplicate t)
   (lsp-ui-sideline-show-code-actions t)
   (lsp-ui-sideline-show-diagnostics t)
